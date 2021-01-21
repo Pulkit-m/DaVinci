@@ -1,0 +1,50 @@
+functionality:
+
+Bot Working tree:
+		BotDP:
+				-a .png file to be used as an avatar for the bot
+		davinci.py      (main working file of the bot )
+		Scripts:( Cog files)
+				-Verify
+				-Ratings
+				-Logs
+				-Emailsending
+				-APIs
+				-info
+				-admin
+		.gitignore
+		requirements.txt
+		.env
+		README.md
+		artsclubvm.sh  (I am still clueless about this one)
+
+
+
+Admin Privilages:
+	-Add or remove members from the group
+	-Assign roles and titles to members
+	-a command to send email to all members of arts club: After 2-3 patches
+	-
+
+
+Core Team Privilages:
+	-content moderation: mostly the privilage to delete messages sent by other people
+	-Bot would send logs(member activity in the server) in a specified channel
+	-ToBeWorkedUpon: A task manager to assign tasks to various members. The tasks would then appear as embeded messages in a channel where messages cannot be sent by users. Team members would be able to add reaction to the assigned tasks like a tick mark or something like that. There would be a list of specific reactions each of which would have a different meaning. Like tick mark for done. A task completed would add to rating of the member. If a core team member adds an incomplete reaction then it would result in a decrement of the task. Every task would carry XP in proportion to the activity of the task. How much XP? will be specified the core member assigning the task within the task command.
+
+
+Member Privilages:
+	-API: Sends art works whenever requested by the user.
+	-Meme: optional
+	-Quiz: optinoal
+	-rating system: rules yet to be decided upon( significan xp increment upon sending images and other visual media)
+	-Hence a .rating command to view one's rating.
+	-ranklist: a command to view the list of top 5-10 members of the club in order of XP.
+	-Contributing to this github repository would give a significant inc in XP
+	-a command to view all core team members as a list
+	-info command: to view one's own or other person's profile
+	-.avatar command to view one's own avatar
+	-certain automated list of created messages to be displayed on a member join.
+	-A department channel where members would be able to join teams like content creation, Event Management, material procurement, etc.
+	-A suggestions channel where all members would be able to send suggestions. Then Core members will have to react to the suggestions. If core members disapprove of a suggestion, then that suggestion would be removed from the channel. If a core member add's a thumbsup emoji then that would mean that the suggestion has been approved and the member would be awarded with significan XP.
+	-In short staying active in the club would be important and all messages would carry 1-5 or 5-7 XP depending on the length of the message. Adding a reaction would add 1 XP. Removing a reaction would revert back the XP to XP-1. Giving suggestion that gets approved would give 30-40 XP. Sending media in specified channels would give 10-20 XP. Contributing to gitHub repository of the bot would add 50-100 XP. Completing a task would add a minimum of 20 XP.
