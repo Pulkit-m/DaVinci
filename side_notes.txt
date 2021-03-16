@@ -1,0 +1,12 @@
+Okay so for now I know how to run a bot.
+
+Pending:
+1.) Learning how to use cog files!
+2.) Learning how to use mongodb within the bot
+3.) Integrating the bot with mongodb database
+4.) Structuring the bot code
+5.) Writing the main feature: Task Manager!
+6.) Learning how to host the bot on hiroku
+7.) Launching the bot officially for arts club
+8.) Adding additional features like webhooks, some ready-made bots,
+9.) Integrating some api's related to art!!
